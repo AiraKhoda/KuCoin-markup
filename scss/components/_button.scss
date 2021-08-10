@@ -1,10 +1,33 @@
 .btn {
-    padding: 0.75rem 1.25rem;
-    border: 1px solid #55efc4;
+    padding: 0.25rem 1rem;
+    border: 1px solid #636e72;
+    border-radius: 3px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.btn-secondary {
+    color: $white-color;
     transition: 0.3s;
     &:hover {
-        background-color: #00b894;
+        color: $green-color;
+    }
+}
+
+.btn-green {
+    color: $green-color;
+    transition: 0.3s;
+    &:hover {
+        background-color: $green-color;
+        color: $white-color;
+    }
+}
+
+.btn-none-border {
+    border: none;
+    color: $white-color;
+    transition: 0.3s;
+    &:hover {
+        color: $green-color;
     }
 }

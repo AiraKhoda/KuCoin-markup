@@ -1,0 +1,86 @@
+.header {
+    background-image: url(../../img/banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    width: 100%;
+    position: relative;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+    }
+    &__item {
+        display: flex;
+        a {
+            font-size: 0.85rem;
+            color: $white-color;
+            padding-right: 1rem;
+            transition: 0.3s;
+            &:hover {
+                color: $green-color;
+            }
+        }
+    }
+    &__log {
+        a {
+            font-size: 0.85rem;
+        }
+        .app-link {
+            color: $white-color;
+            transition: 0.3s;
+            &:hover {
+                color: $green-color;
+            }
+        }
+    }
+    &__title {
+        display: flex;
+        padding-top: 7rem;
+        height: 40vh;
+    }
+    &__info {
+        background: rgba(20, 30, 50, 0.8);
+        width: 400px;
+        height: 130px;
+        padding: 1.5rem;
+        margin: auto 0;
+        a {
+            color: $white-color;
+        }
+    }
+    &__banner {
+        h2 {
+            color: $white-color;
+            font-size: 3rem;
+            font-weight: 300;
+        }
+        p {
+            color: $white-color;
+            font-size: 1.5rem;
+        }
+    }
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        .info {
+            display: flex;
+            h5 {
+                color: $white-color;
+                font-weight: 300;
+            }
+            a {
+                color: $green-color;
+            }
+        }
+        .info-log {
+            display: flex;
+            flex-direction: column;
+            padding-left: 2rem;
+        }
+        .info-log a {
+            padding-top: 1rem;
+            font-size: 0.85rem;
+        }
+    }
+}
